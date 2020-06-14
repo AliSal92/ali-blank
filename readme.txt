@@ -2,7 +2,7 @@
 
 Contributors: AliSal
 Theme link: https://github.com/AliSal92/ali-blank
-Tags: bootstrap 4, jQuery 3.5 and fancybox 3 ready wordpress theme
+Tags: bootstrap 4, jQuery 3.5, fancybox 3, wordpress theme
 Requires at least: 5.1
 Tested up to: 5.1
 Stable tag: 1.0
