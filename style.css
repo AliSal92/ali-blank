@@ -1,0 +1,94 @@
+/*
+Theme Name: Ali Blank
+Theme URI: https://github.com/AliSal92/ali-blank/
+Author: AliSal
+Author URI: https://github.com/AliSal92
+Description: Ali Blank is the definitive WordPress HTML5 boilerplate starter theme.  We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/AliSal92/ali-blank/issues. Thank you.  If you're creating your own theme or client project, open up all files and do a "Find and Replace All in All Files" on the word "ali-blank" with your own slug and prefix.
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+Tags: bootstrap 4, jQuery 3.5, fancybox 3, wordpress theme, blank
+Text Domain: ali-blank
+
+Ali Blank WordPress Theme © 2020
+Ali Blank is distributed under the terms of the GNU GPL
+*/
+
+/* Responsive Menu Break Point */
+.responsive-menu{ display: none; }
+@media all and (max-width: 991px){
+    .responsive-menu{ display: block; }
+    nav#menu{ display: none; }
+}
+
+
+/* --------------------------------
+Menu style
+--------------------------------- */
+nav#menu > div > ul{
+    display: block;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+nav#menu > div > ul li {
+    position: relative;
+}
+nav#menu > div > ul> li {
+    display: inline-block;
+}
+nav#menu > div > ul a{
+    text-decoration:none;
+    color: #000;
+    background-color:#ccc;
+    padding: 5px 15px;
+    display:block;
+    margin:0;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+nav#menu > div > ul li:hover > a{
+    color: #ff4000;
+    background-color:#000;
+}
+nav#menu > div > ul .sub-menu {
+    opacity: 0;
+    pointer-events:none;
+    list-style: none;
+    padding: 0;
+    overflow:visible;
+    text-align: left;
+    width: 100%;
+    min-width:250px;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+nav#menu > div > ul > li > .sub-menu {
+    position: absolute;
+    top: 100%;
+    display: block;
+}
+nav#menu > div > ul > li:hover > .sub-menu {
+    opacity:1;
+    pointer-events:auto;
+}
+nav#menu > div > ul > li > .sub-menu > li > .sub-menu{
+    position: absolute;
+    left: 100%;
+    display: block;
+    top: 0;
+}
+nav#menu > div > ul > li > .sub-menu > li:hover > .sub-menu{
+    opacity:1;
+    pointer-events:auto;
+}
+/* --------------------------------
+END Menu style
+--------------------------------- */
